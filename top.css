@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   background-color: #fef6e4;
 }
@@ -17,4 +21,48 @@ body {
   max-width: 1040px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.header {
+  margin-top: -1rem;
+}
+
+.main-title {
+  color: #172c66;
+  font-family: "Arial Rounded MT Bold";
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.sub-title {
+  color: rgb(0, 24, 88);
+  opacity: 1;
+  /* transform-style: preserve-3d; */
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 1rem;
+  line-height: 1.15;
+  font-weight: 700;
+}
+
+.self-introduce {
+  color: rgb(0, 24, 88);
+  opacity: 1;
+  transform-style: preserve-3d;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+.contact-button {
+  background-color: #f582ae;
+  color: #001858;
+  opacity: 1;
+  transform-style: preserve-3d;
+  padding: 1.2rem 2rem;
+  border-radius: 3px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 40px;
+  display: inline-block;
 }
