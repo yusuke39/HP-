@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -21,6 +22,7 @@ body {
   max-width: 1040px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
 }
 
 .header {
@@ -45,12 +47,20 @@ body {
   font-weight: 700;
 }
 
+.sub-title span {
+  display: inline-block;
+}
+
 .self-introduce {
   color: rgb(0, 24, 88);
   opacity: 1;
   transform-style: preserve-3d;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 400;
+}
+
+.self-introduce span {
+  display: inline-block;
 }
 
 .contact-button {
@@ -60,9 +70,23 @@ body {
   transform-style: preserve-3d;
   padding: 1.2rem 2rem;
   border-radius: 3px;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-weight: 700;
   cursor: pointer;
-  margin-top: 40px;
+  margin-top: 2.5rem;
   display: inline-block;
+}
+
+.top-img-container {
+  opacity: 1;
+  transform-style: preserve-3d;
+}
+
+.top-img {
+  /* background-color: #f3d2c1; */
+  background-color: #8bd3dd;
+  border-radius: 50%;
+  padding: 5%;
+  border-radius: 40% 40% 50% 40%/30% 50% 50% 50%;
+  margin-right: 20px;
 }

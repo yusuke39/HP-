@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+}
+/* 
+.container {
+  
+  display: flex;
+  flex-direction: column;
+} */
+
+.header {
+  margin-top: 330px;
+}
+
+.top-img-container {
+  /* display: flex; */
+  position: absolute;
+  top: 10px;
+  margin-bottom: 100px;
+}
