@@ -95,11 +95,13 @@ body {
 .sub-title-tech {
   color: #001858;
   font-size: 1.6rem;
-  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: -30px;
 }
 
 .tech-container {
   margin-top: 40px;
+  margin-bottom: -30px;
   display: flex;
 }
 
