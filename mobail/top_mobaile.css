@@ -5,7 +5,7 @@
 }
 
 .section {
-  width: 400px;
+  width: 100%;
 }
 
 .header {
@@ -19,4 +19,9 @@
   left: 50px;
   margin-bottom: 100px;
   margin-left: 30px;
+}
+
+.tech-type {
+  font-weight: 700;
+  font-size: 0.8rem;
 }
